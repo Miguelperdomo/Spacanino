@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.fondo{
+    background: url(../img/fondo.png);
+    background-size: cover;
+}
+
+.login{
+    color: #0275d8;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+.row.cotent{
+    height: 300px;
+    padding-top: 20px ;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+h3{
+    padding: 20px;
+ }
+
+.panel{
+    text-align: center;
+    color: black;
+}
+
+.panel a{
+    text-decoration:none;
+}
+
+
+footer{
+    background-color: #555;
+    color: white;
+    padding: 20px;
+    margin-top: auto;
+}
+
+
+@media screen and (max-widht: 767px) {
+    .sidenav  {
+        height: auto;
+        padding: 15px;
+    }  
+    .row.cotent {height: auto;}    
+}
+
+
+img .d-block{
+    height: 500px;
+}
+
+
+#formLogin{
+    background-color: #ffffff;
+    width: 360px;
+    height: 500px;
+    margin-top: 70px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px ;
+    background-color: azure; 
+}
+
+
+.cont{
+    width: 300px;
+    margin-left: auto;
+    text-align: center;
+    background-color: white; 
+}
+
+.cont2{
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+}
+
+#recibo{
+    background-color: #0275d8;
+}
